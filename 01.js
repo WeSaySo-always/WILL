@@ -12,6 +12,15 @@ function soloNumeros(array) {
 
   // Tu código aca:
 
+let nuevoArreglo = [];
+let numero = 17;
+for (let i = 0; i < array.length; i++){
+  if( Number.isInteger(array[i]) ){
+    nuevoArreglo.push(array[i]);
+  }
+}
+return nuevoArreglo;
+
 }
 
 // No modifiques nada debajo de esta linea //
